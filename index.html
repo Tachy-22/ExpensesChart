@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script defer="true" src="./script.js"></script>
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="centering_container">
+      <div class="firstBox">
+        <div class="balanceAmount">
+          <p>My balance</p>
+          <h1>$921.48</h1>
+        </div>
+        <div class="logo"><img src="./images/logo.svg" alt="Card_image" /></div>
+      </div>
+
+      <div class="secondBox">
+        <h1>Spending - Last 7 days</h1>
+
+        <div class="chartMainContainer">
+          <div class="bars">
+            <div>
+              <div class="days" id="mon"></div>
+              <p>mon</p>
+            </div>
+            <div class="amountContainers" id="monAmount"></div>
+          </div>
+          <div class="bars">
+            <div>
+              <div class="days" id="tue"></div>
+              <p>tue</p>
+            </div>
+            <div class="amountContainers" id="tueAmount"></div>
+          </div>
+          <div class="bars">
+            <div>
+              <div class="days" id="wed"></div>
+              <p>wed</p>
+            </div>
+            <div class="amountContainers" id="wedAmount"></div>
+          </div>
+          <div class="bars">
+            <div>
+              <div class="days" id="thu"></div>
+              <p>thu</p>
+            </div>
+            <div class="amountContainers" id="thuAmount"></div>
+          </div>
+          <div class="bars">
+            <div>
+              <div class="days" id="fri"></div>
+              <p>fri</p>
+            </div>
+            <div class="amountContainers" id="friAmount"></div>
+          </div>
+          <div class="bars">
+            <div>
+              <div class="days" id="sat"></div>
+              <p>sat</p>
+            </div>
+            <div class="amountContainers" id="satAmount"></div>
+          </div>
+          <div class="bars">
+            <div>
+              <div class="days" id="sun"></div>
+              <p>sun</p>
+            </div>
+            <div class="amountContainers" id="sunAmount"></div>
+        </div>
+      </div>
+        <div class="spendingSummary">
+          <div class="currentProgress">
+            <p>Total this month</p>
+            <h1>$478.33</h1>
+          </div>
+          <div class="previousProgress">
+            <h2>+2.4%</h2>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+    
+
+    <!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>

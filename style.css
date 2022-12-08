@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=League+Spartan:wght@500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+html,
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(27, 53%, 93%);
+}
+.centering_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 90vw;
+  min-height: auto;
+  padding: 2rem 0rem;
+}
+.firstBox {
+  width: 100%;
+  background: hsl(10, 79%, 65%);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.balanceAmount {
+  color: white;
+}
+.balanceAmount > h1 {
+  font-size: 1.6rem;
+}
+.secondBox {
+  width: 100%;
+  background: white;
+  padding: 1.5rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.secondBox > h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.chartMainContainer {
+  padding-top: 4rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  min-height: 20rem;
+  justify-content: space-between;
+  border-bottom-width: 0.2rem;
+  border-bottom-style: solid;
+  border-color: hsl(27, 53%, 93%);
+}
+.spendingSummary {
+  display: flex;
+  padding-top: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.amountContainers {
+  padding: 0.1rem;
+  height: 2rem;
+  background: black;
+  filter: opacity(0.9);
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  display: none;
+  font-size: 0.7rem;
+}
+.bars {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.days {
+  width: 1.8rem;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.chartMainContainer,
+.spendingSummary > div > P {
+  color: hsl(26, 6%, 49%);
+  text-align: center;
+}
+#wed {
+  background: hsl(186, 34%, 60%);
+}
+.previousProgress {
+  height: 100%;
+}
+.previousProgress > h2 {
+  font-size: 1rem;
+  text-align: right;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 500px) {
+  .centering_container {
+    max-width: 45vw;
+    min-height: auto;
+  }
+  .days {
+  max-width: 2rem;
+ 
+}
+.secondBox > h1 {
+
+  font-size: 2rem;
+}
+}
